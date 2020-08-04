@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: rgba(185, 241, 223, 0.801);
+            text-align: center;
+            padding: 20px;
+        }
+
+        div#login{
+            border-radius: 50px 50px;
+            
+            box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.699);
+            margin-top: 150px;
+            background-image: url(niNE.png);
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+    </style>
+
+</head>
+<body id="login"> 
+    
+    <div id="login">
+        <div id="imag"><img src="user.png"></div>
+        <h1>Login</h1>
+        <input type="text" value="exemplo@mail.com">
+        <input type="password" value="Sua Senha">
+        <button id="enter">Enter</button>
+    </div>
+
+</body>
+
+<script>
+    document.getElementById("enter").onclick = function () {
+    location.href = "site.html";
+}
+</script>
+
+<footer>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></footer>
+</html>

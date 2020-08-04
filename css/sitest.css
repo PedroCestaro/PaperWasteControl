@@ -1,0 +1,134 @@
+body{
+    background-image: url(fundo2.jpg);
+}
+
+.container{
+    position: center;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1{
+    background-color: rgba(0, 0, 0, 0.575);
+    box-shadow: 5px 5px 7px rgba(121, 115, 115, 0.712);
+    color: rgb(60, 187, 77);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.figure-box{
+    width: 800px;
+    position: relative;
+}
+
+.figure-box figure{
+    overflow: hidden;
+    position: relative;
+}
+
+ .figure-box figure img{
+     max-width: 100%;
+     position: relative;
+     transition: transform 0.6s;
+ }
+
+.figure-box figure:hover img{
+    transform: translateY(-50px);
+}
+
+ .figure-box figcaption{
+     position: absolute;
+     top: auto;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: auto;
+     background-color: rgba(0, 0, 0, 0.788);
+     font-size: 20pt;
+     color: goldenrod;
+     text-align: center;
+    opacity: 0;
+     transition: transform 0.6s, opacity 0.1s 0.3s;
+    transform: translateY(100%);
+
+ }
+
+ .figure-box figcaption p{
+    width: auto;
+    padding: 5px;
+ }
+
+.figure-box figure:hover figcaption{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: transform 0.6s, opacity 0.1s;
+}
+
+
+header#logo{
+    text-align: center;
+    padding: 15px;
+    box-shadow: 5px 5px 10px black;
+    background-image: url(fores.jpg);
+}
+
+body#print{
+    background-image: url(imp.jpg);
+}
+
+div#impressao{
+    background-color: rgba(103, 238, 126, 0.849);
+    text-align: center;
+    display: block;
+    padding: 20px;
+    box-sizing: content-box;
+    box-shadow: 5px 5px 10px black;
+    font: bolder 20pt Arial;
+    color: black;
+    border: black;
+    border-radius: 50px 20px;
+    margin-top: 100px; 
+}
+
+body#rec{
+    background-image: url(reci.jpg);
+}
+
+div#qr{
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+div#interacao{
+    border-radius: 50px 75px;
+    font: bold 18pt Arial;
+    background-color: rgba(76, 243, 226, 0.911);
+    padding: 10px;
+    text-align: center;
+}
+
+button#print{
+    border-radius: 70px 70px;
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.808);
+}
+
+button#rec{
+    border-radius: 70px 70px;
+    box-shadow: 5px 5px 10px rgb(90, 207, 12);
+}
+
+div#home{
+    position: relative;
+    margin-left: 1250px;
+}
+
+div#informacao{
+    position: relative;
+    float: left;
+}
+
+div#botao{
+    margin-top: 100px;
+    position: relative;
+    float: right;
+}
