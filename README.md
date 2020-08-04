@@ -1,0 +1,1 @@
+Site made looking to reduce the waste of Water and Trees by unacessary prints in companies. The system is very easy to manage, you can see how much resources you are wasting pushing the "printer" button, or, can add some points using the recycle button, validating the QR-Code
