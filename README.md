@@ -15,9 +15,9 @@ The application was made as a college project, but, has its value in real life. 
 #technologies
 
 The tec's used in this app was:
-- HTML;
--Css;
--JavaScript
+HTML;
+Css;
+JavaScript
 
 #author
 Pedro Cestaro
